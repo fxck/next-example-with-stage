@@ -8,15 +8,21 @@ A Node.js Next.js example for Zerops
 
 - Next.js 14 (App Router)
 
-## Import 
+## Import
 
 ```yaml
 project:
-  name: recipe-nextjs
+  name: nextjs-example
 
 services:
-  - hostname: app
-    type: nodejs@18
-    buildFromGit: https://github.com/fxck/zerops-nextjs-nodejs
+  - hostname: prod
+    type: nodejs@20
+    buildFromGit: https://github.com/fxck/next-example-with-stage
+    enableSubdomainAccess: true
+
+services:
+  - hostname: stage
+    type: nodejs@20
+    buildFromGit: https://github.com/fxck/next-example-with-stage
     enableSubdomainAccess: true
 ```
