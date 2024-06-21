@@ -1,5 +1,5 @@
 project:
-  name: recipe-nextjs
+  name: nextjs-example
 
 services:
   - hostname: prod
