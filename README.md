@@ -1,4 +1,4 @@
-# Zerops + Next.js
+# Zerops + Next.js...
 
 ![Header Image](public/ZeropsNextjs.png)
 
