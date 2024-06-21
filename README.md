@@ -26,3 +26,5 @@ services:
     buildFromGit: https://github.com/fxck/next-example-with-stage
     enableSubdomainAccess: true
 ```
+
+...
